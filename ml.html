@@ -545,21 +545,23 @@ pre.editor-colors .fold-marker:after {
 }
 </style>
   </head>
-  <body class='markdown-preview'><h1>My notes for Machine Learning</h1>
-<h2>develop environment config</h2>
-<p>ts</p>
-<h3>R Markdown</h3>
-<p><a href="http://rmarkdown.rstudio.com">R Markdown</a></p>
-<h3>Homebrew</h3>
-<p><a href="https://brew.sh/">Homebrew</a></p>
-<ul>
-<li>Uninstall Homebrew</li>
-</ul>
-<pre class="editor-colors"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>$&nbsp;ruby&nbsp;-e&nbsp;"$(curl&nbsp;-fsSL&nbsp;</span><span class="syntax--markup syntax--underline syntax--link syntax--https syntax--hyperlink"><span>https://raw.githubusercontent.com/Homebrew/install/master/uninstall</span></span><span>)"</span></span>
-</div></pre>
-<ul>
-<li></li>
-</ul>
+  <body class='markdown-preview'><h1>H. Jin’s Machine Learning Notes</h1>
+<h2>Set up development environment (macOS)</h2>
 <h3>TensorFlow install</h3>
-<p>ts</p></body>
+<p><a href="https://www.tensorflow.org/install/install_mac">TensorFlow</a></p>
+<ul>
+<li>install <a href="https://anaconda.org/">Anaconda</a></li>
+<li>create an virtualenv named “tensorflow” in Anaconda GUI</li>
+<li>open a terminal and go to <code>~/anaconda/envs/tensorflow</code>
+<ul>
+<li>start virtualenv by <code>source ./bin/activate</code></li>
+<li>start jupyter by <code>jupyter notebook</code></li>
+<li>…</li>
+<li>exit virtualenv by <code>deactivate</code></li>
+</ul>
+</li>
+</ul>
+<p>All the packages and frameworks should be installed in the virtualenv. When we stay at tensorflow virtualenv, run the following command to install tensorflow framework. The source code used here is <strong>not the official version</strong>, it is from <a href="https://github.com/lakshayg/tensorflow-build">https://github.com/lakshayg/tensorflow-build</a></p>
+<pre class="editor-colors"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>pip&nbsp;install&nbsp;--ignore-installed&nbsp;--upgrade&nbsp;\&nbsp;</span><span class="syntax--markup syntax--underline syntax--link syntax--https syntax--hyperlink"><span>https://github.com/lakshayg/tensorflow-build/raw/master/tensorflow-1.4.0-cp36-cp36m-macosx_10_12_x86_64.whl</span></span></span>
+</div></pre></body>
 </html>
