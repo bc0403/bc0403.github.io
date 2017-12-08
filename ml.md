@@ -6,11 +6,11 @@ H. Jin's Machine Learning Notes
 [TensorFlow](https://www.tensorflow.org/install/install_mac)
 * install [Anaconda](https://anaconda.org/)
 * create an virtualenv named "tensorflow" in Anaconda GUI
-* open a terminal and go to `~/anaconda/envs/tensorflow`
+* open a terminal and go to `~/anaconda3/envs/tensorflow`
     + start virtualenv by `source ./bin/activate`
     + start jupyter by `jupyter notebook`
     + ...
-    + exit virtualenv by `deactivate`
+    + exit virtualenv by `source deactivate`
 
 
 All the packages and frameworks should be installed in the virtualenv. When we stay at tensorflow virtualenv, run the following command to install tensorflow framework. The source code used here is **not the official version**, it is from https://github.com/lakshayg/tensorflow-build
